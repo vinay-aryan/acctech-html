@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
-    <title>Dashboard</title>
+    <title>Finycle</title>
 </head>
 
 <body>
@@ -183,7 +183,7 @@
                                 <a class="nav-link active" href="dashboard-finance.html" data-toggle="collapse"
                                     aria-expanded="false"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span
                                         class="badge badge-success">6</span></a>
-                                <div id="submenu-1" class="collapse submenu" style="">
+                                <div id="submenu-1" class="collapse submenu" >
                                     <!-- <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="dashboard-finance.html">Finance</a>
@@ -199,7 +199,7 @@
                                     data-target="#submenu-2" aria-controls="submenu-2"><i
                                         class="fa fa-book"></i>Accoounting <span
                                         class="badge badge-success">6</span></a>
-                                <div id="submenu-2" class="collapse submenu" style="">
+                                <div id="submenu-2" class="collapse submenu" >
                                     <ul class="nav flex-column">
 
                                         <li class="nav-item">
@@ -212,7 +212,7 @@
                                 <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
                                     data-target="#submenu-3" aria-controls="submenu-3"><i
                                         class="far fa-file"></i>Billing <span class="badge badge-success">6</span></a>
-                                <div id="submenu-3" class="collapse submenu" style="">
+                                <div id="submenu-3" class="collapse submenu" >
                                     <ul class="nav flex-column">
 
                                         <li class="nav-item">
@@ -231,7 +231,7 @@
                             <li class="nav-item ">
                                 <a class="nav-link active" href="blank-page-header.html"><i class="fa fa-file"></i>My
                                     Document <span class="badge badge-success">6</span></a>
-                                <!-- <div style="">
+                                <!-- <div >
                                      <ul class="nav flex-column">
 
                                         <li class="nav-item">
@@ -248,7 +248,7 @@
                                     data-target="#submenu-4" aria-controls="submenu-4"><i
                                         class="fa fa-fw fa-user-circle"></i>Tax Tools<span
                                         class="badge badge-success">6</span></a>
-                                <div id="submenu-4" class="collapse submenu" style="">
+                                <div id="submenu-4" class="collapse submenu" >
                                     <ul class="nav flex-column">
 
                                         <li class="nav-item">
@@ -265,7 +265,7 @@
                                     data-target="#submenu-5" aria-controls="submenu-5"><i
                                         class="fa fa-fw fa-user-circle"></i>Reports <span
                                         class="badge badge-success">6</span></a>
-                                <div id="submenu-5" class="collapse submenu" style="">
+                                <div id="submenu-5" class="collapse submenu" >
                                     <ul class="nav flex-column">
 
                                         <li class="nav-item">
@@ -298,108 +298,127 @@
         </div>
     </div>
     </div>
-        <!-- ============================================================== -->
-        <!-- end left sidebar -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- wrapper  -->
-        <!-- ============================================================== -->
-        <div class="dashboard-wrapper">
-            <div class="container-fluid dashboard-content">
-                <div class="row">
-                    <div class="col-xl-10">
-                        <!-- ============================================================== -->
-                        <!-- pageheader  -->
-                        <!-- ============================================================== -->
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="page-header" id="top">
-                                    <h2 class="pageheader-title">Reports</h2>
-                                    <!-- <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p> -->
-                                    <div class="page-breadcrumb">
-                                        <nav aria-label="breadcrumb">
-                                            <ol class="breadcrumb">
-                                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                                
-                                                <li class="breadcrumb-item active" aria-current="page">Reports</li>
-                                            </ol>
-                                        </nav>
-                                    </div>
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="page-header text-center" data-test-title="selected-date">
+                <h4>Demo Org</h4>
+                <h3 class="reports-headerspacing">Aging Details By Invoice Due Date </h3>
+                <h5>As of 13 Apr 2017</h5>
+            </div>
+            <table id="ember2449" class="norow-action table zi-table table-hover ember-view table-light">
+                <thead>
+                    <tr>
+                        <!---->
+                        <th  id="ember2451" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="DATE"> DATE
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                        </div>
-                       
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="section-block" id="card-list">
-                                    <h1 class="section-title text-center text-success">REPORTS</h1>
-                                    </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                        <div class="card-body">
-                                        <h3 class="card-title">BUSINESS OVERVIEW</h3>
-                                        <p class="card-text">Check you Business overview report </p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="Profit_Loss.html" class="card-link">Profit & Loss</a></li>
-                                        <li class="list-group-item"><a href="Cash_flow.html" class="card-link">Cash Flow</a></li>
-                                        <li class="list-group-item"><a href="Ballance_sheets.html" class="card-link">Balance Sheet</a></li>
-                                        <li class="list-group-item"><a href="trail_balance.html" class="card-link">Trail Ballance</a></li>
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th  id="ember2453" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Transaction#"> Transaction#
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Receivables</h3>
-                                        <p class="card-text">Check Your Receable Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="rece_aging_summary.html" class="card-link">Aging Summary</a></li>
-                                        <li class="list-group-item"><a href="rece_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="rece_invoice_detail.html" class="card-link">Invoice Detail</a></li>
-                                        
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th  id="ember2455" class="  text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Type"> Type
+                                    <!---->
                                 </div>
-                                    
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Payables </h3>
-                                        <p class="card-text">Check Your Payables  Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="pay_aging_summary.html" class="card-link">Aging summary</a></li>
-                                        <li class="list-group-item"><a href="pay_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="pay_invoice_detail.html" class="card-link">Invoice Details</a></li>
-                                      </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th  id="ember2457" class="  text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Status"> Status
+                                    <!---->
                                 </div>
-                                   
-                                    </div>
-                                </div>
+                                <!---->
                             </div>
-                        </div>
-                        
-                            <!-- /grid column -->
-                            <!-- grid column -->
-                            
+                        </th>
+                        <th  id="ember2459" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Customer Name"> Customer Name
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th  id="ember2461" class="  text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Age"> Age
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th  id="ember2463" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Amount"> Amount
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th  id="ember2465" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Balance Due"> Balance Due
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <!---->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="group-header">
+                        <td colspan="6"><strong>apple</strong></td>
+                        <td class="text-right"><strong>£1.295,700</strong></td>
+                        <td class="text-right"><strong>£1.295,700</strong></td>
+                    </tr>
+                    <tr class="group-subheader group-level-one">
+                        <td colspan="6"><strong>&gt; 45 Days</strong></td>
+                        <td class="text-right"><strong>£1.295,700</strong></td>
+                        <td class="text-right"><strong>£1.295,700</strong></td>
+                    </tr>
+                    <tr class="group-level-two">
+                        <td>12 Apr 2017</td>
+                        <td> <a href="#/invoices/7525000001162003" id="ember2471" class="ember-view"> INV-000270 </a>
+                        </td>
+                        <td></td>
+                        <td>
+                            <div class="text-overdue">Overdue</div>
+                        </td>
+                        <td><a href="#/contacts/7525000000782001" id="ember2472" class="ember-view">apple</a></td>
+                        <td>49 Days</td>
+                        <td class="text-right"> <a href="#/invoices/7525000001162003" id="ember2474" class="ember-view">
+                                £1.295,700 </a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001162003" id="ember2476" class="ember-view">
+                                £1.295,700 </a> </td>
+                    </tr>
+                    <tr class="hover-muted font-medium">
+                        <td colspan="6">Total</td>
+                        <td class="text-right">£1.295,700</td>
+                        <td class="text-right">£1.295,700</td>
+                    </tr>
+                    <!---->
+                </tbody>
+            </table>
+            <!-- /grid column -->
+            <!-- grid column -->
+
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
@@ -407,7 +426,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a
+                                href="https://colorlib.com/wp/">Colorlib</a>.
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
@@ -432,7 +452,7 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src='assets/libs/js/main-js.js'></script>
-   
+
 </body>
- 
+
 </html>

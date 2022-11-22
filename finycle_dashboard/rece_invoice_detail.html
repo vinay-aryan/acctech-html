@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
-    <title>Dashboard</title>
+    <title>Finycle</title>
 </head>
 
 <body>
@@ -298,131 +298,321 @@
         </div>
     </div>
     </div>
-        <!-- ============================================================== -->
-        <!-- end left sidebar -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- wrapper  -->
-        <!-- ============================================================== -->
-        <div class="dashboard-wrapper">
-            <div class="container-fluid dashboard-content">
-                <div class="row">
-                    <div class="col-xl-10">
-                        <!-- ============================================================== -->
-                        <!-- pageheader  -->
-                        <!-- ============================================================== -->
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="page-header" id="top">
-                                    <h2 class="pageheader-title">Reports</h2>
-                                    <!-- <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p> -->
-                                    <div class="page-breadcrumb">
-                                        <nav aria-label="breadcrumb">
-                                            <ol class="breadcrumb">
-                                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                                
-                                                <li class="breadcrumb-item active" aria-current="page">Reports</li>
-                                            </ol>
-                                        </nav>
-                                    </div>
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="page-header text-center">
+                <h4>Demo Org</h4>
+                <h3 class="reports-headerspacing">Invoice Details</h3>
+                <h5><span>From</span>&nbsp;09 Apr 2017&nbsp;<span>To</span>&nbsp;15 Apr 2017</h5>
+            </div>
+            <table id="ember3297" class="norow-action table zi-table table-hover ember-view table-light">
+                <thead>
+                    <tr>
+                        <!---->
+                        <th style="width:100px;" id="ember3299" class="  text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Status"> Status
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                        </div>
-                       
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="section-block" id="card-list">
-                                    <h1 class="section-title text-center text-success">REPORTS</h1>
-                                    </div>
+                        </th>
+                        <th style="width:150px;" id="ember3301" class="  sortable asc text-left ember-view">
+                            <div class="position-relative mr-4">
+                                <div class="float-left over-flow" title="Invoice Date"> Invoice Date
+                                    <!---->
+                                </div> <span class="sort d-print-none "></span>
                             </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                        <div class="card-body">
-                                        <h3 class="card-title">BUSINESS OVERVIEW</h3>
-                                        <p class="card-text">Check you Business overview report </p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="Profit_Loss.html" class="card-link">Profit & Loss</a></li>
-                                        <li class="list-group-item"><a href="Cash_flow.html" class="card-link">Cash Flow</a></li>
-                                        <li class="list-group-item"><a href="Ballance_sheets.html" class="card-link">Balance Sheet</a></li>
-                                        <li class="list-group-item"><a href="trail_balance.html" class="card-link">Trail Ballance</a></li>
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember3303" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Due Date"> Due Date
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Receivables</h3>
-                                        <p class="card-text">Check Your Receable Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="rece_aging_summary.html" class="card-link">Aging Summary</a></li>
-                                        <li class="list-group-item"><a href="rece_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="rece_invoice_detail.html" class="card-link">Invoice Detail</a></li>
-                                        
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember3305" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Invoice#"> Invoice#
+                                    <!---->
                                 </div>
-                                    
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Payables </h3>
-                                        <p class="card-text">Check Your Payables  Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="pay_aging_summary.html" class="card-link">Aging summary</a></li>
-                                        <li class="list-group-item"><a href="pay_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="pay_invoice_detail.html" class="card-link">Invoice Details</a></li>
-                                      </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember3307" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Order Number"> Order Number
+                                    <!---->
                                 </div>
-                                   
-                                    </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th style="width:200px;" id="ember3309" class="  sortable text-left ember-view">
+                            <div class="position-relative ">
+                                <div class="float-left over-flow" title="Customer Name"> Customer Name
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                        </div>
-                        
-                            <!-- /grid column -->
-                            <!-- grid column -->
-                            
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <div class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class="text-md-right footer-links d-none d-sm-block">
-                                <a href="javascript: void(0);">About</a>
-                                <a href="javascript: void(0);">Support</a>
-                                <a href="javascript: void(0);">Contact Us</a>
+                        </th>
+                        <th style="width:250px;" id="ember3311" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Total"> Total
+                                    <!---->
+                                </div>
+                                <!---->
                             </div>
-                        </div>
+                        </th>
+                        <th style="width:250px;" id="ember3313" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Balance"> Balance
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <!---->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!---->
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123023" id="ember3317" class="ember-view">INV-000257</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000083142" id="ember3318" class="ember-view">Customer Eu Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3319"
+                                class="ember-view">£5,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3320"
+                                class="ember-view">£5,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123046" id="ember3323" class="ember-view">INV-000258</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3324" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3325"
+                                class="ember-view">£53,600</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3326"
+                                class="ember-view">£53,600</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123075" id="ember3329" class="ember-view">INV-000259</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3330" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3331"
+                                class="ember-view">£68,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3332"
+                                class="ember-view">£68,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123023" id="ember3335" class="ember-view">INV-000257</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000083142" id="ember3336" class="ember-view">Customer Eu Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3337"
+                                class="ember-view">£5,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3338"
+                                class="ember-view">£5,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123046" id="ember3341" class="ember-view">INV-000258</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3342" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3343"
+                                class="ember-view">£53,600</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3344"
+                                class="ember-view">£53,600</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123075" id="ember3347" class="ember-view">INV-000259</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3348" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3349"
+                                class="ember-view">£68,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3350"
+                                class="ember-view">£68,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123023" id="ember3353" class="ember-view">INV-000257</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000083142" id="ember3354" class="ember-view">Customer Eu Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3355"
+                                class="ember-view">£5,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3356"
+                                class="ember-view">£5,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123046" id="ember3359" class="ember-view">INV-000258</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3360" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3361"
+                                class="ember-view">£53,600</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3362"
+                                class="ember-view">£53,600</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123075" id="ember3365" class="ember-view">INV-000259</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3366" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3367"
+                                class="ember-view">£68,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3368"
+                                class="ember-view">£68,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123023" id="ember3371" class="ember-view">INV-000257</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000083142" id="ember3372" class="ember-view">Customer Eu Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3373"
+                                class="ember-view">£5,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123023" id="ember3374"
+                                class="ember-view">£5,000</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123046" id="ember3377" class="ember-view">INV-000258</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3378" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3379"
+                                class="ember-view">£53,600</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123046" id="ember3380"
+                                class="ember-view">£53,600</a> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-draft">Draft</div>
+                        </td>
+                        <td>01 May 2017</td>
+                        <td>01 May 2017</td>
+                        <td> <a href="#/invoices/7525000001123075" id="ember3383" class="ember-view">INV-000259</a>
+                        </td>
+                        <td></td>
+                        <td> <a href="#/contacts/7525000000065003" id="ember3384" class="ember-view">Company UK Vat</a>
+                        </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3385"
+                                class="ember-view">£68,000</a> </td>
+                        <td class="text-right"> <a href="#/invoices/7525000001123075" id="ember3386"
+                                class="ember-view">£68,000</a> </td>
+                    </tr>
+                    <tr class="hover-muted font-medium">
+                        <td colspan="6">Total</td>
+                        <td class="text-right">£536,540</td>
+                        <td class="text-right">£536,540</td>
+                    </tr>
+                    <!---->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- /grid column -->
+    <!-- grid column -->
+
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    Copyright © 2018 Concept. All rights reserved. Dashboard by <a
+                        href="https://colorlib.com/wp/">Colorlib</a>.
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="text-md-right footer-links d-none d-sm-block">
+                        <a href="javascript: void(0);">About</a>
+                        <a href="javascript: void(0);">Support</a>
+                        <a href="javascript: void(0);">Contact Us</a>
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- end footer -->
-            <!-- ============================================================== -->
         </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end footer -->
+    <!-- ============================================================== -->
+    </div>
     </div>
     <!-- ============================================================== -->
     <!-- end main wrapper -->
@@ -432,7 +622,7 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src='assets/libs/js/main-js.js'></script>
-   
+
 </body>
- 
+
 </html>

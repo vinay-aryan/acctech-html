@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
-    <title>Dashboard</title>
+    <title>Finycle</title>
 </head>
 
 <body>
@@ -298,108 +298,169 @@
         </div>
     </div>
     </div>
-        <!-- ============================================================== -->
-        <!-- end left sidebar -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- wrapper  -->
-        <!-- ============================================================== -->
-        <div class="dashboard-wrapper">
-            <div class="container-fluid dashboard-content">
-                <div class="row">
-                    <div class="col-xl-10">
-                        <!-- ============================================================== -->
-                        <!-- pageheader  -->
-                        <!-- ============================================================== -->
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="page-header" id="top">
-                                    <h2 class="pageheader-title">Reports</h2>
-                                    <!-- <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p> -->
-                                    <div class="page-breadcrumb">
-                                        <nav aria-label="breadcrumb">
-                                            <ol class="breadcrumb">
-                                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                                
-                                                <li class="breadcrumb-item active" aria-current="page">Reports</li>
-                                            </ol>
-                                        </nav>
-                                    </div>
-                                </div>
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <!---->
+            <!---->
+            <div class="page-header text-center">
+                <h4>Demo Org</h4>
+                <h3 class="reports-headerspacing">Aging Summary By Invoice Due Date </h3>
+                <h5>As of 13 Apr 2022</h5>
+            </div>
+            <table id="ember1716" class="norow-action table zi-table table-hover ember-view table-light">
+                <thead>
+                    <tr>
+                        <!---->
+                        <th style="width:250px;" id="ember1845" class="  sortable asc text-left ember-view">
+                            <div class="position-relative mr-4">
+                                <div class="float-left over-flow" title="Customer Name"> Customer Name
+                                    <!---->
+                                </div> <span class="sort d-print-none "></span>
                             </div>
-                        </div>
-                       
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="section-block" id="card-list">
-                                    <h1 class="section-title text-center text-success">REPORTS</h1>
-                                    </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                        <div class="card-body">
-                                        <h3 class="card-title">BUSINESS OVERVIEW</h3>
-                                        <p class="card-text">Check you Business overview report </p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="Profit_Loss.html" class="card-link">Profit & Loss</a></li>
-                                        <li class="list-group-item"><a href="Cash_flow.html" class="card-link">Cash Flow</a></li>
-                                        <li class="list-group-item"><a href="Ballance_sheets.html" class="card-link">Balance Sheet</a></li>
-                                        <li class="list-group-item"><a href="trail_balance.html" class="card-link">Trail Ballance</a></li>
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember1847" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Current"> Current
+                                    <!---->
                                 </div>
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Receivables</h3>
-                                        <p class="card-text">Check Your Receable Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="rece_aging_summary.html" class="card-link">Aging Summary</a></li>
-                                        <li class="list-group-item"><a href="rece_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="rece_invoice_detail.html" class="card-link">Invoice Detail</a></li>
-                                        
-                                    </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember1849" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="1-15 Days"> 1-15 Days
+                                    <!---->
                                 </div>
-                                    
+                                <!---->
                             </div>
-                            <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Payables </h3>
-                                        <p class="card-text">Check Your Payables  Report here</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item "><a href="pay_aging_summary.html" class="card-link">Aging summary</a></li>
-                                        <li class="list-group-item"><a href="pay_aging_Details.html" class="card-link">Aging Details</a></li>
-                                        <li class="list-group-item"><a href="pay_invoice_detail.html" class="card-link">Invoice Details</a></li>
-                                      </ul>
-                                    
-                                    <!-- <div class="card-body">
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
-                                    </div> -->
+                        </th>
+                        <th style="width:150px;" id="ember1851" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="16-30 Days"> 16-30 Days
+                                    <!---->
                                 </div>
-                                   
-                                    </div>
-                                </div>
+                                <!---->
                             </div>
-                        </div>
-                        
-                            <!-- /grid column -->
-                            <!-- grid column -->
-                            
+                        </th>
+                        <th style="width:150px;" id="ember1853" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="31-45 Days"> 31-45 Days
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th style="width:150px;" id="ember1855" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="&amp;gt; 45 Days"> &gt; 45 Days
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th style="width:150px;" id="ember1857" class="  sortable text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="Total"> Total
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <th style="width:150px;" id="ember1859" class="  text-right ember-view">
+                            <div class="position-relative ">
+                                <div class=" over-flow" title="FCY"> FCY
+                                    <!---->
+                                </div>
+                                <!---->
+                            </div>
+                        </th>
+                        <!---->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!---->
+                    <tr>
+                        <td><a href="#/contacts/7525000000782001" id="ember1862" class="ember-view">apple</a></td>
+                        <!---->
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1863="1863">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1865="1865">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1867="1867">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1869="1869">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1871="1871">₹1.295,700</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1872="1872">₹1.295,700</a></td>
+                        <td class="text-right"> €1.295,700</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#/contacts/7525000000601847" id="ember1874" class="ember-view">AUD</a>
+                        </td>
+                        <!---->
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1875="1875">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1877="1877">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1879="1879">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1881="1881">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1883="1883">₹1.005,924</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1884="1884">₹1.005,924</a></td>
+                        <td class="text-right"> €1,625.96</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#/contacts/7525000000493003" id="ember1886" class="ember-view">cad</a>
+                        </td>
+                        <!---->
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1887="1887">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1889="1889">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1891="1891">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action="" data-ember-action-1893="1893">₹0,000</a>
+                        </td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1895="1895">₹1.092,001</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1896="1896">₹1.092,001</a></td>
+                        <td class="text-right"> €109.98</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="1">Total</td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1897="1897">₹1,25,800</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1899="1899">₹21,426.5</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1901="1901">₹10,713.25</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1903="1903">₹5,357.00</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1905="1905">₹48,209.25</a></td>
+                        <td class="text-right"><a href="#" data-ember-action=""
+                                data-ember-action-1906="1906">₹2,11,506</a></td>
+                        <td></td>
+                    </tr>
+                    <!---->
+                </tbody>
+            </table>
+        </div>
+            <!-- /grid column -->
+            <!-- grid column -->
+
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
@@ -407,7 +468,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a
+                                href="https://colorlib.com/wp/">Colorlib</a>.
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
@@ -432,7 +494,7 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src='assets/libs/js/main-js.js'></script>
-   
+
 </body>
- 
+
 </html>
